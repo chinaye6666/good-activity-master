@@ -1,0 +1,74 @@
+<view class="release">
+  <view class='release-t'>
+    <view class="release-nav" id="{{num==true ? 'on':''}}" bindtap="deng">我发布的</view>
+    <view class="release-nav" id="{{!num==true ? 'on':''}}" bindtap="deng">我参与的</view>
+  </view>
+  <view class='release-b'>
+    <view class='release-content' hidden="{{!num}}">
+      <view class='release-tab'>
+        <view class='release-img'>
+          <image src='/images/icon-03.png'></image>
+        </view>
+        <view class='release-wrap'>
+          <view class='release-tit'>超惊艳!风靡全球、排队8小时都要去的“未来游乐园”来惠州啦!</view>
+          <view class='release-body'>
+            <view class='release-span'>数量：2</view>
+            <view class='release-span'>总价：<view class='release-i'>20元</view></view>
+            <view class='release-span time'>2018/6/19</view>
+          </view>
+          <view class='release-but'>
+            <button class='but-b'>报名列表</button>
+            <button class='but-j'>截止报名</button>
+            <button class='but-t'>停止活动</button>
+          </view>
+        </view>
+      </view>
+      <view class='release-tab'>
+        <view class='release-img'>
+          <image src='/images/icon-03.png'></image>
+        </view>
+        <view class='release-wrap'>
+          <view class='release-tit'>超惊艳!风靡全球、排队8小时都要去的“未来游乐园”来惠州啦!</view>
+          <view class='release-body'>
+            <view class='release-span'>数量：2</view>
+            <view class='release-span'>总价：<view class='release-i'>20元</view></view>
+            <view class='release-span time'>2018/6/19</view>
+          </view>
+          <view class='release-but'>
+            <button class='but-b'>报名列表</button>
+            <button class='but-j'>截止报名</button>
+            <button class='but-t'>停止活动</button>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='release-content' hidden="{{num}}">
+      <view class='release-tab'>
+        <view class='release-img'>
+          <image src='/images/icon-03.png'></image>
+        </view>
+        <view class='release-wrap'>
+          <view class='release-tit'>2222超惊艳!风靡全球、排队8小时都要去的“未来游乐园”来惠州啦!</view>
+          <view class='release-body'>
+            <view class='release-span'>数量：2</view>
+            <view class='release-span'>总价：<view class='release-i'>20元</view></view>
+            <view class='release-span time'>2018/6/19</view>
+          </view>
+        </view>
+      </view>
+      <view class='release-tab'>
+        <view class='release-img'>
+          <image src='/images/icon-03.png'></image>
+        </view>
+        <view class='release-wrap'>
+          <view class='release-tit'>2222超惊艳!风靡全球、排队8小时都要去的“未来游乐园”来惠州啦!</view>
+          <view class='release-body'>
+            <view class='release-span'>数量：2</view>
+            <view class='release-span'>总价：<view class='release-i'>20元</view></view>
+            <view class='release-span time'>2018/6/19</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

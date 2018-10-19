@@ -1,0 +1,127 @@
+.release{
+  width: 100%;
+}
+
+.release-t{
+  width: 100%;
+  display: inline-block;
+  padding: 0 60rpx;
+  border-bottom: 1rpx #ededed solid;
+}
+
+.release-nav{
+  width: 260rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 25rpx;
+  color: #333;
+  float: left;
+}
+
+.release-nav + .release-nav{
+  margin-left: 110rpx;
+}
+
+#on{
+  border-bottom: 6rpx #e3cc62 solid;
+}
+
+.release-b,release-content{
+  width: 100%;
+}
+
+.release-tab{
+  padding: 60rpx 30rpx;
+  display: inline-block;
+}
+
+.release-tab + .release-tab{
+  border-top: 1rpx #ededed solid;
+}
+
+.release-img{
+  width: 95rpx;
+  float: left;
+  margin-right: 30rpx;
+}
+
+.release-img image{
+  width: 95rpx;
+  height: 95rpx;
+  border-radius: 5rpx;
+}
+
+.release-wrap{
+  width: 570rpx;
+  float: left;
+}
+
+.release-tit{
+  font-size: 32rpx;
+  color: #333;
+  width: 100%;
+  height: 95rpx;
+  line-height: 45rpx;
+  overflow: hidden;
+}
+
+.release-body{
+  width: 100%;
+  margin-top: 30rpx;
+  position: relative;
+}
+
+.release-span{
+  color: #b5b5b5;
+  font-size: 30rpx;
+  line-height:45rpx;
+  display: inline-block;
+}
+
+.release-span + .release-span{ 
+  margin-left: 20rpx;
+}
+
+.release-i{
+  color: #8b353e;
+  display: inline-block;
+}
+
+.time{
+  position: absolute;
+  right: 0;
+}
+
+.release-but{
+  margin-top: 30rpx;
+}
+
+.release-but button{
+  height: 65rpx;
+  line-height: 65rpx;
+  font-size: 28rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  border: 2rpx solid;
+  float: left;
+}
+
+.release-but button + button{
+  margin-left: 25rpx;
+}
+
+.but-b{
+  border-color: #3db9ae;
+  color: #3db9ae;
+}
+
+.but-j{
+  border-color: #cb9c30;
+  color: #cb9c30;
+}
+
+.but-t{
+  border-color: #ea5d4a;
+  color: #ea5d4a;
+}

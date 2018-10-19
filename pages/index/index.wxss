@@ -1,0 +1,149 @@
+page {
+  font-size: 30rpx;
+  color: #4a4a4a;
+}
+
+.body {
+  overflow: hidden;
+}
+
+/* 地址栏 */
+
+.address {
+  background: #fff;
+}
+
+.address>image {
+  width: 20rpx;
+  height: 30rpx;
+  margin-top: 12rpx;
+  margin-left: 15rpx;
+}
+
+.address input {
+  padding-left: 0.6em;
+}
+
+.search-wrap {
+  padding: 30rpx;
+  background: #0037ff;
+}
+
+.search {
+  height: 70rpx;
+  background: #f9f9f9;
+  border-radius: 5rpx;
+}
+
+.search .prepend {
+  float: left;
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 32rpx;
+}
+
+/*overflow:hidden形成的BFC未能阻止margin穿透?  */
+
+.search input {
+  height: 100%;
+  /* margin-left: 32rpx; */
+  overflow: hidden;
+}
+
+.input-placeholder {
+  color: #c7c7c7;
+}
+
+/*banner  */
+
+.banner {
+  margin-top: 20rpx;
+}
+
+.banner>swiper {
+  width: 100%;
+  height: 190rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+/*导航  */
+
+.catagory {
+  padding: 20rpx 0;
+  justify-content: flex-start;
+}
+
+.catagory .ul {
+  flex-wrap: wrap;
+}
+
+.catagory .ul .li {
+  width: 16%;
+  margin: 10rpx 1.66%;
+  text-align: center;
+}
+
+.catagory .li image {
+  width: 98rpx;
+  height: 98rpx;
+  margin: auto;
+  background: #9b9b9b;
+  color: #f9f9f9;
+  border-radius: 50%;
+}
+
+.catagory .li view {
+  font-size: 26rpx;
+  color: #0f0f0f;
+}
+
+.catagory .li.on view {
+  color: pink;
+}
+
+/* 活动列表  */
+
+.activity .headimg {
+  height: 350rpx;
+}
+
+.activity .headimg>image {
+  width: 100%;
+  height: 100%;
+}
+
+.activity .title {
+  margin-top: 30rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.activity .des {
+  padding: 20rpx 0;
+  justify-content: flex-start;
+  font-size: 18rpx;
+  color: #666;
+}
+
+.activity .des>view {
+  margin: 0 5rpx;
+  vertical-align: middle;
+}
+
+.bg-p {
+  border-radius: 4rpx;
+  padding: 4rpx 10rpx;
+  color: #fff;
+}
+
+.login {
+  margin-top: 250rpx;
+  width: 500rpx;
+}

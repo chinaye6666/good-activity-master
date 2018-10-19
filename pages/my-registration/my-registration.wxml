@@ -1,0 +1,33 @@
+<view class='enroll'>
+  <block wx:for-items="{{enroll}}" wx:key="{{item.name}}">
+    <view class='enroll-item'>
+        <view class='enroll-img'>
+          <image src='{{item.img}}'></image>
+        </view>
+        <view class='enroll-wrap'>
+          <view class='enroll-tit'>{{item.tit}}</view>
+          <view class='enroll-body'>
+            <view class='enroll-l'>
+                <view class='enroll-p'>
+                  <view class='enroll-spna'>姓名：{{item.name}}</view>
+                  <view class='enroll-spna'>人数：{{item.people}}人</view>
+                </view>
+                <view class='enroll-p'>
+                    <view class='enroll-spna'>价位：</view>
+                    <view class='enroll-i'>{{item.price}}元</view>
+                </view>
+                <view class='enroll-p'>
+                    <view class='enroll-spna'>联系方式：</view>
+                    <view class='enroll-d'>{{item.telephone}}</view>
+                </view>
+                <view class='enroll-p'>留言：{{item.leave}}</view>
+            </view>
+            <view class='enroll-r'>
+                <view class='time'>{{item.time}}</view>
+                <button class='but'>允许</button>
+            </view>
+          </view>
+        </view>
+      </view> 
+  </block>
+</view>
